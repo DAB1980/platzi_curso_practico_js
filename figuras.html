@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras Geométricas</title>
+</head>
+<body>
+    <header>
+        <h1>Figuras Geométricas</h1>
+        <p>
+            Este es el primer taller del curso práctcio de JS
+        </p>
+    </header>
+
+    <section>
+        <h2>
+            Calcula el Área y Perímetro de un Cudrado
+        </h2>
+        <form>
+            <label for="input_cuadrado">
+                Escribe cuanto mide cada lado del cuadrado
+            </label>
+            <input type="number" id="input_cuadrado">
+            <button type="button" onclick="CalcularPerimteroCuadrado()">
+                Calcular Perímetro
+            </button>
+            <button type="button" onclick="CalcularAreaCuadrado()">
+                Calcular Área
+            </button>
+        </form>
+    </section>
+
+    <section>
+        <h2>
+            Calcula el Áltura Triangulo Isoseles
+        </h2>
+        <form>
+            <label for="input_triangulo_lado1">
+                Escribe cuanto mide el lado 1 del triangulo
+            </label>
+            <input type="number" id="input_triangulo_lado1">
+
+            <label for="input_triangulo_lado2">
+                Escribe cuanto mide el lado 2 del triangulo
+            </label>
+            <input type="number" id="input_triangulo_lado2">
+
+            <label for="input_triangulo_base">
+                Escribe cuanto mide la base del triangulo
+            </label>
+            <input type="number" id="input_triangulo_base">
+
+            <button type="button" onclick="CalcularAlturaTriangulo()">
+                Calcular Altura Triangulo
+            </button>
+        </form>
+    </section>
+
+
+    <script src="./figuras.js">
+
+    </script>
+
+
+</body>
+</html>

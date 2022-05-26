@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentajes y Descuentos</title>
+</head>
+<body>
+    <section class="Encabezado">
+        <h1> Calculadora de Porcentajes y Descuentos</h1>
+        <p>
+            Esta calculadora permite obtenr el precio final de un articulo, dado un precio y un % de descuento
+        </p>
+    </section>
+    <section class="Calculadora">
+        <form>
+            <label for="PrecioLista"> Precio de Lista Articulo </label>
+            <input id="PrecioLista" type="number">
+            <label for="Porcentaje"> Porcentaje de Descuento</label>
+            <input id="Porcentaje" type="number">
+            <button type="button" onclick="CalcularPrecioFinal()">Calcular Precio Final</button>
+            <p id="precio_final"></p>
+        </form>
+    </section>
+    
+    <script src="./porcentajes.js" >
+
+    </script>
+</body>
+</html>
